@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'digital7';
+  src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/11525/digital-7.ttf')  format('truetype');
+}
+
+body{
+font-family: 'Roboto Mono' ;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background : black;
+}
+
+.wrapper{
+	width: 430px;
+	margin: 0 auto;
+	background-color: #800020;
+	height: 520px;
+	text-align: center;
+	color: white;
+	padding-top:10px;
+	border-radius: 3px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;	
+	border-right: 1px solid black;	
+	border-left: 1px solid black;	
+}
+
+#screen{
+	border-left: 30px solid #ccc;
+	border-right: 30px solid #ccc;
+	border-top: 10px solid #ccc;
+	border-bottom: 10px solid #ccc;
+	width: 242px;
+	height: 60px;
+	border-radius: 5px;
+	margin-left: -2px;
+	margin-top: px;
+	color: black;
+	font-size: 3.5rem;
+	line-height: 4.5rem;
+	font-family: digital7;
+	overflow: hidden;
+	padding-right: 40px;
+}
+
+#screenBorder{
+	width: 327px;
+	background-color: #b0b78e;
+	border: 8px solid #000;
+	margin: 5px auto;
+	line-height: 2;
+	text-align:right;
+	padding: 0 10px 0 0;
+	height: 80px;
+	border-radius: 5px;
+}
+
+.keypad{
+	width: 90%;
+	height: 330px;
+	margin: 30px auto;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #800020;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.key{
+	background-color: #404133;
+	border: 3px solid black;
+	border-radius: 3px;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	color: white;
+	font-size: 1.5em;
+	position: relative;
+}
+
+.key:hover{
+background-color: #303123;
+	cursor: pointer; cursor: hand;
+}
+
+.special{
+	background-color: #c8953c;
+}
+
+.special:hover{
+	background-color: #b8852c;	
+}
+
+#equals:hover{
+	background-color: red;
+}
+
+#modeArea {
+	width: 90%;
+	background-color: black;
+	padding-top: 5px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+	height: 110px;
+	border-radius: 5px;
+}
+
+#modeArea table{
+	border-collapse: collapse;
+
+}
+
+#modeArea td{
+	border: 1px solid white;
+	width:25px;
+}
+
+.casio{
+	text-align: left;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
